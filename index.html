@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/styles.css">
+        <nav>
+            <ol>
+                <a href= ""><li id="Initials">M.O.</li></a>
+                <a onclick="document.getElementById('main-pane').innerHTML=document.getElementById('AboutMe').innerHTML;"><li>about me</li></a>
+                <a onclick="document.getElementById('main-pane').innerHTML=document.getElementById('Portfolio').innerHTML;"><li>portfolio</li></a>
+                <a onclick="document.getElementById('main-pane').innerHTML=document.getElementById('Blog').innerHTML;"><li>blog</li></a>
+                <a onclick="document.getElementById('main-pane').innerHTML=document.getElementById('More').innerHTML;"><li>more</li></a>
+            </ol>
+        </nav>
+    </head>
+    <body>
+        <div id="main-pane">
+            <div id="main-image">
+                <img src="img/me.jpg" alt="wedding photo">
+                <div id="content-pane">
+                </div>
+            </div>
+        </div>
+
+        <div id="AboutMe">
+            <article>
+            </article>
+            <iframe id = "SpotifyPlayer" src="https://open.spotify.com/embed/playlist/37i9dQZF1EM3J9cZQw7dMD" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div id="Portfolio">
+            <article>
+                <p>Some portfolio content</p>
+            </article>
+        </div>
+        <div id="Blog">
+            <article>
+                <p>Potentially a tech Blog</p>
+            </article>
+        </div>
+        <div id="More">
+            <article>
+                <p>More stuff in here</p>
+            </article>
+        </div>
+        
+    </body>
+</html>
