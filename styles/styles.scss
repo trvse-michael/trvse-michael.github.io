@@ -75,7 +75,8 @@ nav {
 }
 
 #SpotifyPlayer {
-    position: relative;
+    right: 40px;
+    border-radius: 10px;
 }
 
 #Portfolio {
@@ -93,8 +94,6 @@ nav {
     position: absolute;
 }
 
-
-
 #content-pane {
 
     height: 100%;    
@@ -103,6 +102,16 @@ nav {
         text-align: center;
         color: rgb(8, 8, 8);
     }
+
+}
+
+article {
+    @extend %mainview;
+    width: 500px;
+    padding-left: 30px;
+    text-align: center;
+    border-left: black solid;
+    top: 50px;
 }
 
 

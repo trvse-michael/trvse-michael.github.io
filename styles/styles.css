@@ -40,7 +40,7 @@ nav li {
   margin-left: 0px;
 }
 
-#AboutMe, #main-pane {
+article, #AboutMe, #main-pane {
   position: absolute;
   left: 5vw;
   height: 100vh;
@@ -63,7 +63,8 @@ nav li {
 }
 
 #SpotifyPlayer {
-  position: relative;
+  right: 40px;
+  border-radius: 10px;
 }
 
 #Portfolio {
@@ -87,6 +88,14 @@ nav li {
 #content-pane p {
   text-align: center;
   color: #080808;
+}
+
+article {
+  width: 500px;
+  padding-left: 30px;
+  text-align: center;
+  border-left: black solid;
+  top: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
